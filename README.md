@@ -11,6 +11,6 @@ Sample login.jsp is available in the authenticationendpoint  in the resources fo
  } else if (localAuthenticatorNames.size() > 0 && (localAuthenticatorNames.contains(BASIC_AUTHENTICATOR) || localAuthenticatorNames.contains("CustomBasicAuthenticator"))) {
  
 
- *Restart the server.
- *In your service provider configurations, instead of Basic authenticator select the "basicCustom"  You can change this authenticator friendly name according to your preference in your source code.
+ * Restart the server.
+ * In your service provider configurations, instead of Basic authenticator select the "basicCustom"  You can change this authenticator friendly name according to your preference in your source code.
 
